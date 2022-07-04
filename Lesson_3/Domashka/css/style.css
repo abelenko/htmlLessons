@@ -1,0 +1,108 @@
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+li {
+	list-style: none;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+img {
+	vertical-align: top;
+}
+
+/* --------------- */
+
+
+
+/* МОИ СТИЛИ */
+
+h1 {
+	font-weight: bold;
+	font-size: x-large;
+	margin-bottom: 0.1em;
+	color: blueviolet;
+}
+
+ul.list-first li {
+	font-weight: bold;
+}
+
+ul.list-second li {
+	font-weight: normal;
+	margin-left: 1em;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+table.info,
+table.info td {
+	border: 1px solid;
+	border-collapse: collapse;
+}
+
+table.info td {
+	padding: 0.2em;
+	padding-bottom: 0.2em;
+}
+
+
+.highlight {
+	font-weight: bold;
+}
+
+.main-block h2.subtitle {
+	font-weight: bold;
+	font-size: large;
+	margin-top: 0.5em;
+	margin-bottom: 0.2em;
+	color: cadetblue;
+}
+
+.main-block h3.subtitle {
+	font-weight: normal;
+	font-style: italic;
+	font-size: large;
+	margin-top: 0.5em;
+	margin-bottom: 0.2em;
+	color: cyan;
+}
+
+div.main-block {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+div.main-block p {
+	margin-top: 0.5em;
+}
+
+.table-hl {
+	text-align: center;
+	font-weight: bold;
+}

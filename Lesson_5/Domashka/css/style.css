@@ -1,0 +1,215 @@
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+li {
+	list-style: none;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+img {
+	vertical-align: top;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+html {
+	font-size: 16px;
+}
+
+body {
+	line-height: 1;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+/* -------- Конец обнуления ------- */
+
+
+
+
+/* ------Підключення шрифтів ----- */
+@font-face {
+	font-family: 'GaramondC';
+	src: url('../fonts/GaramondC-Italic.woff2') format('woff2'),
+		url('../fonts/GaramondC-Italic.woff') format('woff');
+	font-weight: normal;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'GaramondC';
+	src: url('../fonts/GaramondC-Bold.woff2') format('woff2'),
+		url('../fonts/GaramondC-Bold.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'GaramondC';
+	src: url('../fonts/GaramondC-BoldItalic.woff2') format('woff2'),
+		url('../fonts/GaramondC-BoldItalic.woff') format('woff');
+	font-weight: bold;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'GaramondC';
+	src: url('../fonts/GaramondC.woff2') format('woff2'),
+		url('../fonts/GaramondC.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* --- Кінець підключення шрифтів --- */
+
+
+
+.main {
+	text-align: center;
+}
+
+
+.sky {
+	height: 30px;
+}
+
+.paper {
+	display: inline-block;
+	width: 600px;
+	height: 750px;
+	border: 1px solid black;
+	padding: 30px 70px 100px 70px;
+}
+
+
+.imposition {
+	min-height: 100%;
+	/* border: 1px solid magenta; */
+	text-align: left;
+}
+
+
+.image {
+	width: 100%;
+	margin: 0px 0px 30px 0px;
+}
+
+h1.chapter {
+	display: block;
+	text-align: center;
+	font-family: GaramondC;
+	color: #308191;
+	font-weight: bold;
+	font-size: 21px;
+	margin: 0px 0px 25px 0px;
+}
+
+.text {
+	display: block;
+	min-height: 100%;
+	/* border: 1px solid black; */
+}
+
+.maintext,
+.first {
+	margin: 0 0 14px 0;
+	font-family: GaramondC;
+	font-size: 14px;
+}
+
+.maintext {
+	text-indent: 20px;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.first {
+	
+}
+
+.first::first-letter {
+	font-family: GaramondC;
+	font-weight: bold;
+	font-size: 50px;
+	/* Размер буквы */
+	color: #d34f29;
+	/* Цвет буквы */
+	float: left;
+	/* Выравнивание по левому краю */
+	margin: 0 8px 0 0;
+	/* Отступы вокруг буквы */
+}
+
+
+
+
+/* ----------------------------------- */
+
+/* 
+.container {
+	text-align: center;
+}
+
+.block {
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	vertical-align: top;
+	margin-bottom: 3px;
+}
+
+.first {
+	background-color: blue;
+}
+
+.second {
+	background-color: chartreuse;
+}
+
+.third {
+	background-color: crimson;
+}
+
+.fourth {
+	background-color: darkorange;
+} */
